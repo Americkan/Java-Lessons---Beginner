@@ -18,11 +18,11 @@ public class Interrogation {
 		System.out.print("What is your favorite show, " + name + "?");
 		favoriteShow = answer.next();
 
-		System.out.println(weight + ". That show isn't that interesting...");
+		System.out.println(favoriteShow + ". That show isn't that interesting...");
 		System.out.print("What's your favorite thing to do, " + name + "? ");
 		favoriteActivity = answer.next();
 
-		System.out.print(income + "? That does not sound like fun at all.");
+		System.out.print(favoriteActivity + "? That does not sound like fun at all.");
 		System.out.println("Do you need to confess to anything, " + name + "?");
 		confession = answer.next();
 		
