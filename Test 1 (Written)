@@ -1,1 +1,13 @@
 
+//First exam of Java
+//Written Portion
+
+
+1. What does the following code portion print to the screen?
+   System.out.println("Hello" + "world!");
+   
+A. Hello world!
+B. Hello World
+C. Helloworld!
+D. Hello + world!
+
