@@ -52,4 +52,15 @@ C. boolean
 D. char
 E. String
 
-6.
+6. int x = 7;
+   int y = 2;
+   int z;
+   
+   z = x/y; 
+   
+   What is stored in the value of z? 
+ 
+A. 2
+B. 0
+C. 3.5
+D. 3
