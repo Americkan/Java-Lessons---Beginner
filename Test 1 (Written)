@@ -19,4 +19,11 @@ B. System.out.println(); prints the current line and starts a new line.
 C. System.out.print(); only prints the current line and that's it.
 D. Both B and C
 
-3. 
+3. What escape sequence would insert a tab space?
+
+A. \n
+B. \t
+C. \" \"
+D. \\
+
+4.
