@@ -64,3 +64,12 @@ A. 2
 B. 0
 C. 3.5
 D. 3
+
+7. If a programmer wants human responses what should he add to the program first?
+
+A. import java.util.Scanner;
+B. Import Java.Util.scanner;
+C. import java.vtil.scanner
+D. import java.util.scanner;
+
+8.
