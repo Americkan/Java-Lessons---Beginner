@@ -37,4 +37,5 @@ A. >
 B. ==
 C. <
 D. >=
-E. Both A and D 
+E. !=
+F. Both C and E 
