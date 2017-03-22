@@ -11,3 +11,12 @@ B. Hello World
 C. Helloworld!
 D. Hello + world!
 
+2. What is the difference between:
+   System.out.println(); and System.out.print();
+   
+A. They do the same thing.
+B. System.out.println(); prints the current line and starts a new line. 
+C. System.out.print(); only prints the current line and that's it.
+D. Both B and C
+
+3. 
