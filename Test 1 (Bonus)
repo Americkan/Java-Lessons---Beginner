@@ -6,7 +6,9 @@ public class Zelda {
   public static void main(String[] args) {
     Scanner value = new Scanner(System.in); 
     
-    int linkHealth, linkAttack, linkDefense, linkRupee, storeLocation;
+    int linkHealth, linkAttack, linkDefense, linkRupee;
+    boolean healthPotion = false;
+    String answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9;
     //Default Values
     linkHealth = 15;
     linkAttack = 20;
@@ -20,6 +22,37 @@ public class Zelda {
     System.out.println("Attack: " + linkAttack);
     System.out.println("Defense: " + linkDefense);
     System.out.println("Rupees: " + linkRupee);
+    
+    System.out.println( "Your adventure starts. There is a shop ahead. Do you enter?" Enter 'yes' or 'no');
+		answer1 = value.next(); //User inserted the word "yes". 
+    
+		if (value == "yes") {
+      System.out.println("You enter the store. The shop clerk says buy somethin' will ya?!");
+      System.out.println("Shield: 125 rupees. Increases Defense by 50.");
+      System.out.println("Sword: 135 rupees. Increases Attack by 75.");
+      System.out.println("Health Potion: 50 rupees. Regain full heatlh.");
+
+			if (answer2 == "Shield") {
+        System.out.print("You have purchased a shield and Link's defense has rose.");
+        linkDefense = linkDefense + 50;
+        linkRupee = 150 - 125;
+			}
+      
+      else if (answer2 == "Sword") {
+        System.out.println("You have purchased a sword and Link's attack has rose.");
+        linkAttack = linkAttack + 75;
+        linkRupee = 150 - 135;
+			}
+			
+			else if (answer2 == "Health Potion") {
+        System.out.println("You have bought a healthPotion for good measures. );
+				healthPotion = true; 
+        linkRupee = 150 - 50;
+      }
+      
+      else {
+        System.out.println("You bought nothing? Get out of my store!");
+      }
     
   }
 }
