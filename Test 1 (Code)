@@ -19,3 +19,4 @@
 3. Create a program that represents height requirements at an amusement park. The park has requirements
    set at 65 inches for Rides W, 55 inches for Rides X, 45 inches for Rides Y and 35 inches for Rides Z. 
    I am 48 inches tall. What rides am I allowed to ride? 
+   Bonus: Ask the user for their own height. 
