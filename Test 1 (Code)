@@ -1,1 +1,21 @@
 
+//Created by: Erick Herrera
+//
+//First Java Exam
+//This is the written portion
+//
+//Written Portion is weighted at 40% of overall score.
+//Coding Portion is weight at 60% of overall score.
+
+1. Create a program that asks a user for the height and width of a triangle.
+   The program should then calcuate the area and print the result. 
+   Hint: area = (base * height)/2 
+   
+2. Create a program that organizes a person's schedule and neatly prints it to the screen.
+   Assume the schedule is: Period 1 - Calculus - Mr.Math. Period 2 - English - Ms. English.
+   Period 3 - History - Mr. History. Period 4 - Science - Ms. Science. Period 5 - PE - Mr.PE.
+   Period 6 - Spanish - Ms. Spanish. 
+   
+3. Create a program that represents height requirements at an amusement park. The park has requirements
+   set at 65 inches for Rides W, 55 inches for Rides X, 45 inches for Rides Y and 35 inches for Rides Z. 
+   I am 48 inches tall. What rides am I allowed to ride? 
