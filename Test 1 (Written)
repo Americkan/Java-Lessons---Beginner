@@ -111,47 +111,20 @@ D. Grade = D
 E. Grade = F
 F. None, there is an error. 
 
-10. The following program has errors. How many are there? (Don't get tricked)
-    Program name: College.java
+10. The following program has errors. How many are there? Circling them will help. (Don't get tricked)
+    Program name: Hello.java
     
-    public class college {
-    public class static void main(string[] args); {
-        scanner input = new Scanner(System.in);
-        
-        string firstName, lastName, login, password;
-        int grade, studentID;
-        Double GPA;
-
-        System.out.println("CSU/UC Application Sign-Up")
-
-        Systems.out.print("First name: ");
-        firstName = input.next();
-
-        System.out.print("Last name: ");
-        lastName = input.next();
-
-        System.out.print("Major: ");
-        grade = input.nextInt();
-
-        System.out.print("Student ID: ");
-        studentID = input.nextInt();
-
-        System.out.print("Login: ");
-        login = input.next();
-
-        System.out.print("Password: ")
-        password = input.next();
-
-        System.out.print("GPA: ");
-        GPA = input.nextDouble();
-
-        System.out.println();
-        System.out.println();
-        System.out.println("Your information:");
-        System.out.println("\tLogin: " + login);
-        System.out.println("\tPassword: " + login);
-        System.out.println("\tID:    " + studentID);
-        System.out.println("\tName:  " + lastName + ", " + firstName);
-        System.out.println("\tGPA:   " + GPA);
+    import java.vtil.scanner;
+    
+    public class hello {
+      public static void main(string[] args); {
+         scanner response = new Scanner(system.In); 
+         string name; 
+         
+         System.out.prtln("Please enter your name!);
+         name = scanner.next()
+         
+         system.out.prnt(Hello + name);
+         system.out.prntln(This class is amazing right," + name)
+      }
     }
-}
