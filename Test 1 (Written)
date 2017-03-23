@@ -72,4 +72,12 @@ B. Import Java.Util.scanner;
 C. import java.vtil.scanner
 D. import java.util.scanner;
 
-8.
+8. What would hold an integer (no decimal values) given from a human response?
+   Assume that Scanner has been created with a variable called input, and a mystery variable called response. 
+   
+A. input = response; 
+B. response = input.next();
+C. response = input.nextLine();
+D. response = input.nextInt(); 
+
+9. 
