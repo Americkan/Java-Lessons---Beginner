@@ -1,1 +1,25 @@
 
+// Zelda.cpp
+import java.util.Scanner;
+
+public class Zelda {
+  public static void main(String[] args) {
+    Scanner value = new Scanner(System.in); 
+    
+    int linkHealth, linkAttack, linkDefense, linkRupee, storeLocation;
+    //Default Values
+    linkHealth = 15;
+    linkAttack = 20;
+    linkDefense = 30;
+    linkRupee = 150; 
+    
+    
+    System.out.println("Game Start"); 
+    System.out.println("Link Stats: ");
+    System.out.println("Health: " + linkHealth); 
+    System.out.println("Attack: " + linkAttack);
+    System.out.println("Defense: " + linkDefense);
+    System.out.println("Rupees: " + linkRupee);
+    
+  }
+}
