@@ -80,4 +80,78 @@ B. response = input.next();
 C. response = input.nextLine();
 D. response = input.nextInt(); 
 
-9. 
+9. What would the correct output be? 
+   Grade.java
+   
+   class Grade {
+    public static void main(String[] args) {
+
+        int score = 86;
+        char grade;
+
+        if (score >= 90) {
+            grade = 'A';
+        } else if (score >= 80) {
+            grade = 'B';
+        } else if (score >= 70) {
+            grade = 'C';
+        } else if (score >= 60) {
+            grade = 'D';
+        } else {
+            grade = 'F';
+        }
+        System.out.println("Grade = " + grade);
+    }
+}
+
+A. Grade = A
+B. Grade = B
+C. Grade = C
+D. Grade = D
+E. Grade = F
+F. None, there is an error. 
+
+10. The following program has errors. How many are there? (Don't get tricked)
+    Program name: College.java
+    
+    public class college {
+    public class static void main(string[] args); {
+        scanner input = new Scanner(System.in);
+        
+        string firstName, lastName, login, password;
+        int grade, studentID;
+        Double GPA;
+
+        System.out.println("CSU/UC Application Sign-Up")
+
+        Systems.out.print("First name: ");
+        firstName = input.next();
+
+        System.out.print("Last name: ");
+        lastName = input.next();
+
+        System.out.print("Major: ");
+        grade = input.nextInt();
+
+        System.out.print("Student ID: ");
+        studentID = input.nextInt();
+
+        System.out.print("Login: ");
+        login = input.next();
+
+        System.out.print("Password: ")
+        password = input.next();
+
+        System.out.print("GPA: ");
+        GPA = input.nextDouble();
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Your information:");
+        System.out.println("\tLogin: " + login);
+        System.out.println("\tPassword: " + login);
+        System.out.println("\tID:    " + studentID);
+        System.out.println("\tName:  " + lastName + ", " + firstName);
+        System.out.println("\tGPA:   " + GPA);
+    }
+}
